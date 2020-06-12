@@ -1,0 +1,86 @@
+{
+	"name": "my-app",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"dev": "webpack-dev-server --mode development",
+		"webpack": "webpack --mode development",
+		"app": "webpack --mode production"
+	},
+	"dependencies": {
+		"@material-ui/core": "^4.9.7",
+		"@material-ui/icons": "^4.9.1",
+		"@material-ui/lab": "^4.0.0-alpha.46",
+		"@material-ui/styles": "^4.0.0-rc.0",
+		"axios": "^0.19.2",
+		"bowser": "^2.9.0",
+		"immer": "^6.0.5",
+		"jsonp": "^0.2.1",
+		"lodash": "^4.17.15",
+		"node-sass": "^4.14.1",
+		"react": "^16.13.0",
+		"react-awesome-slider": "^4.1.0",
+		"react-cookie": "^4.0.3",
+		"react-dom": "^16.13.0",
+		"react-h5-audio-player": "^3.1.0",
+		"react-input-mask": "^2.0.4",
+		"react-redux": "^7.2.0",
+		"react-router-dom": "^5.1.2",
+		"react-scroll": "^1.7.16",
+		"react-slick": "^0.25.2",
+		"redux": "^4.0.5",
+		"select-pure": "^0.5.0",
+		"slick-carousel": "^1.8.1",
+		"socket.io-client": "^2.3.0",
+		"typed.js": "^2.0.11"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@babel/core": "^7.9.0",
+		"@babel/preset-env": "^7.9.0",
+		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.5.0",
+		"@testing-library/user-event": "^7.2.1",
+		"autoprefixer": "^9.7.6",
+		"babel-core": "^6.24.1",
+		"babel-loader": "^8.0.6",
+		"babel-plugin-transform-es2015-destructuring": "^6.23.0",
+		"babel-plugin-transform-object-rest-spread": "^6.23.0",
+		"babel-polyfill": "^6.26.0",
+		"babel-preset-es2015": "^6.24.1",
+		"babel-preset-react": "^6.24.1",
+		"css-loader": "^3.4.2",
+		"cssnano": "^4.1.10",
+		"file-loader": "^5.0.2",
+		"html-webpack-plugin": "^4.0.0-beta.11",
+		"mini-css-extract-plugin": "^0.9.0",
+		"path": "^0.12.7",
+		"postcss-loader": "^3.0.0",
+		"precss": "^4.0.0",
+		"react-scripts": "^3.4.0",
+		"sass-loader": "^8.0.2",
+		"style-loader": "^1.1.3",
+		"terser-webpack-plugin": "^3.0.2",
+		"webpack": "^4.41.5",
+		"webpack-cli": "^3.3.11",
+		"webpack-dev-server": "^3.10.2"
+	}
+}
